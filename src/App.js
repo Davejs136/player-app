@@ -1,5 +1,6 @@
-import React from 'react';
+import React from 'react'
+import Layout from './layout'
 
-const App = () => <h2>Player App</h2>;
+const App = () => <Layout></Layout>
 
-export default App;
+export default App
