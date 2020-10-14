@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 
 // Pages
 import Home from '../pages/Home'
+import Favorite from '../pages/Favorite'
 
 const Routes = () => (
   <Switch>
@@ -10,7 +11,7 @@ const Routes = () => (
       <Home />
     </Route>
     <Route path="/favorite">
-      <p>Favorite</p>
+      <Favorite />
     </Route>
     <Route path="/recent">
       <p>Recent</p>
