@@ -6,6 +6,7 @@ import Home from '../pages/Home'
 import Favorite from '../pages/Favorite'
 import Recent from '../pages/Recent'
 import Playlist from '../pages/Playlist'
+import Settings from '../pages/Settings'
 
 const Routes = () => (
   <Switch>
@@ -22,7 +23,7 @@ const Routes = () => (
       <Playlist />
     </Route>
     <Route path="/settings">
-      <p>Settings</p>
+      <Settings />
     </Route>
   </Switch>
 )
