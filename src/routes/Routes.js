@@ -2,11 +2,12 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 // Pages
+import Home from '../pages/Home'
 
 const Routes = () => (
   <Switch>
     <Route exact path="/">
-      <p>Home</p>
+      <Home />
     </Route>
     <Route path="/favorite">
       <p>Favorite</p>
