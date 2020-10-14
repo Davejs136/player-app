@@ -7,6 +7,7 @@ import Favorite from '../pages/Favorite'
 import Recent from '../pages/Recent'
 import Playlist from '../pages/Playlist'
 import Settings from '../pages/Settings'
+import Theme from '../pages/Theme'
 
 const Routes = () => (
   <Switch>
@@ -24,6 +25,9 @@ const Routes = () => (
     </Route>
     <Route path="/settings">
       <Settings />
+    </Route>
+    <Route path="/themes">
+      <Theme />
     </Route>
   </Switch>
 )
