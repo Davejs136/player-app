@@ -4,6 +4,8 @@ import { Switch, Route } from 'react-router-dom'
 // Pages
 import Home from '../pages/Home'
 import Favorite from '../pages/Favorite'
+import Recent from '../pages/Recent'
+import Playlist from '../pages/Playlist'
 
 const Routes = () => (
   <Switch>
@@ -14,7 +16,10 @@ const Routes = () => (
       <Favorite />
     </Route>
     <Route path="/recent">
-      <p>Recent</p>
+      <Recent />
+    </Route>
+    <Route path="/playlist">
+      <Playlist />
     </Route>
     <Route path="/settings">
       <p>Settings</p>
