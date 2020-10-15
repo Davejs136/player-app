@@ -2,20 +2,32 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 // Pages
+import Home from '../pages/Home'
+import Favorite from '../pages/Favorite'
+import Recent from '../pages/Recent'
+import Playlist from '../pages/Playlist'
+import Settings from '../pages/Settings'
+import Theme from '../pages/Theme'
 
 const Routes = () => (
   <Switch>
     <Route exact path="/">
-      <p>Home</p>
+      <Home />
     </Route>
     <Route path="/favorite">
-      <p>Favorite</p>
+      <Favorite />
     </Route>
     <Route path="/recent">
-      <p>Recent</p>
+      <Recent />
+    </Route>
+    <Route path="/playlist">
+      <Playlist />
     </Route>
     <Route path="/settings">
-      <p>Settings</p>
+      <Settings />
+    </Route>
+    <Route path="/themes">
+      <Theme />
     </Route>
   </Switch>
 )

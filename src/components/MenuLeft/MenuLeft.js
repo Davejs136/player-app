@@ -10,7 +10,7 @@ import {
 import { Link } from 'react-router-dom'
 
 const MenuLeft = () => (
-  <sidebar className="menu-left">
+  <aside className="menu-left">
     <nav>
       <span>
         <Link to="/">
@@ -49,7 +49,7 @@ const MenuLeft = () => (
         </Link>
       </span>
     </nav>
-  </sidebar>
+  </aside>
 )
 
 export default MenuLeft
