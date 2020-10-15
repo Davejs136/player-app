@@ -1,4 +1,5 @@
 import React from 'react'
+import data from '../../music.json'
 
 const Home = () => (
   <section className="home">
@@ -17,11 +18,13 @@ const Home = () => (
     </div>
     <div className="home__list">
       <ul>
-        <li>List 1</li>
-        <li>List 2</li>
-        <li>List 3</li>
-        <li>List 4</li>
-        <li>List 5</li>
+        {data.map(item => (
+          <li key={item.id}>
+            <h2> {item.name} - <span>{item.id}</span> </h2><br/>
+            <p>path: {item.path}</p><br/>
+            <p>Is favorite: {item.favorite}</p>
+          </li>
+        ))}
       </ul>
     </div>
   </section>
