@@ -1,4 +1,5 @@
 import React from 'react'
+import data from '../../music.json'
 
 const Favorite = () => (
   <section className="fav">
@@ -16,13 +17,19 @@ const Favorite = () => (
       </div>
     </div>
     <div className="fav__list">
-      <ul>
-        <li>List 1</li>
-        <li>List 2</li>
-        <li>List 3</li>
-        <li>List 4</li>
-        <li>List 5</li>
-      </ul>
+      {data
+        .filter(item => item.favorite)
+        .map(item => (
+          <li key={item.id}>
+            <h2>
+              {item.name} - <span>{item.id}</span>
+            </h2>
+            <br />
+            <p>path: {item.path}</p>
+            <br />
+            <p>Is favorite: {String(item.favorite)}</p>
+          </li>
+        ))}
     </div>
   </section>
 )
