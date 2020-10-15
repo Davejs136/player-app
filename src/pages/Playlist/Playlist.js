@@ -16,13 +16,7 @@ const Playlist = () => (
       </div>
     </div>
     <div className="playlist__list">
-      <ul>
-        <li>List 1</li>
-        <li>List 2</li>
-        <li>List 3</li>
-        <li>List 4</li>
-        <li>List 5</li>
-      </ul>
+      <p>There is not a playlist yet</p>
     </div>
   </section>
 )
