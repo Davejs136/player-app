@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "song 1.mp3",
+    "path": "/songs1",
+    "favorite": false
+  },
+  {
+    "id": 2,
+    "name": "song 2.mp3",
+    "path": "/songs2",
+    "favorite": true
+  },
+  {
+    "id": 3,
+    "name": "song 3.mp3",
+    "path": "/songs3",
+    "favorite": false
+  },
+  {
+    "id": 4,
+    "name": "song 4.mp3",
+    "path": "/songs4",
+    "favorite": false
+  },
+  {
+    "id": 5,
+    "name": "song 5.mp3",
+    "path": "/songs5",
+    "favorite": false
+  },
+  {
+    "id": 6,
+    "name": "song 6.mp3",
+    "path": "/songs6",
+    "favorite": true
+  },
+  {
+    "id": 7,
+    "name": "song 7.mp3",
+    "path": "/songs7",
+    "favorite": false
+  }
+]
